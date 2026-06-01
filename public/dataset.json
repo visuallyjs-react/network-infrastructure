@@ -1,0 +1,319 @@
+{
+  "nodes": [
+    {
+      "id": "lb-1",
+      "type": "loadbalancer",
+      "monthlyPrice": 50,
+      "color": "#f02f33",
+      "label": "Public LB",
+      "x": 50,
+      "y": 80,
+      "width": 80,
+      "height": 80,
+      "group": "vpc-1",
+      "fill": "#FFFFFF",
+      "outline": "#000000",
+      "z": 2
+    },
+    {
+      "id": "srv-1",
+      "type": "server",
+      "monthlyPrice": 45,
+      "color": "#539b94",
+      "label": "Web Server 1",
+      "x": 200,
+      "y": 60,
+      "width": 80,
+      "height": 80,
+      "group": "vpc-1",
+      "fill": "#FFFFFF",
+      "outline": "#000000",
+      "z": 3
+    },
+    {
+      "id": "srv-2",
+      "type": "server",
+      "monthlyPrice": 45,
+      "color": "#539b94",
+      "label": "Web Server 2",
+      "x": 200,
+      "y": 200,
+      "width": 80,
+      "height": 80,
+      "group": "vpc-1",
+      "fill": "#FFFFFF",
+      "outline": "#000000",
+      "z": 4
+    },
+    {
+      "id": "srv-3",
+      "type": "server",
+      "monthlyPrice": 45,
+      "color": "#539b94",
+      "label": "App Server 1",
+      "x": 400,
+      "y": 60,
+      "width": 80,
+      "height": 80,
+      "group": "vpc-1",
+      "fill": "#FFFFFF",
+      "outline": "#000000",
+      "z": 5
+    },
+    {
+      "id": "srv-4",
+      "type": "server",
+      "monthlyPrice": 45,
+      "color": "#539b94",
+      "label": "App Server 2",
+      "x": 400,
+      "y": 340,
+      "width": 80,
+      "height": 80,
+      "group": "vpc-1",
+      "fill": "#FFFFFF",
+      "outline": "#000000",
+      "z": 6
+    },
+    {
+      "id": "db-1",
+      "type": "database",
+      "monthlyPrice": 80,
+      "color": "#e53388",
+      "label": "Primary DB",
+      "x": 550,
+      "y": 80,
+      "width": 80,
+      "height": 80,
+      "group": "vpc-1",
+      "fill": "#FFFFFF",
+      "outline": "#000000",
+      "z": 7
+    },
+    {
+      "id": "db-2",
+      "type": "database",
+      "monthlyPrice": 80,
+      "color": "#e53388",
+      "label": "Replica DB",
+      "x": 550,
+      "y": 230,
+      "width": 80,
+      "height": 80,
+      "group": "vpc-1",
+      "fill": "#FFFFFF",
+      "outline": "#000000",
+      "z": 8
+    },
+    {
+      "id": "cache-1",
+      "type": "database",
+      "color": "#e53388",
+      "monthlyPrice": 80,
+      "label": "Redis Cache",
+      "x": 400,
+      "y": 200,
+      "width": 80,
+      "height": 80,
+      "group": "vpc-1",
+      "fill": "#FFFFFF",
+      "outline": "#000000",
+      "z": 9
+    },
+    {
+      "id": "monitoring",
+      "type": "server",
+      "monthlyPrice": 45,
+      "color": "#539b94",
+      "label": "Prometheus",
+      "x": 50,
+      "y": 330,
+      "width": 80,
+      "height": 80,
+      "group": "vpc-1",
+      "fill": "#FFFFFF",
+      "outline": "#000000",
+      "z": 10
+    },
+    {
+      "id": "logging",
+      "type": "server",
+      "monthlyPrice": 45,
+      "color": "#539b94",
+      "label": "ELK Stack",
+      "x": 150,
+      "y": 330,
+      "width": 80,
+      "height": 80,
+      "group": "vpc-1",
+      "fill": "#FFFFFF",
+      "outline": "#000000",
+      "z": 11
+    },
+    {
+      "id": "bastion",
+      "type": "server",
+      "monthlyPrice": 45,
+      "color": "#539b94",
+      "label": "Bastion Host",
+      "x": 50,
+      "y": 200,
+      "width": 80,
+      "height": 80,
+      "group": "vpc-1",
+      "fill": "#FFFFFF",
+      "outline": "#000000",
+      "z": 12
+    },
+    {
+      "x": 30,
+      "y": 40,
+      "type": "server",
+      "fill": "#FFFFFF",
+      "outline": "#000000",
+      "outlineWidth": 2,
+      "color": "#539b94",
+      "category": "infrastructure",
+      "width": 80,
+      "height": 80,
+      "label": "Server",
+      "description": "Scalable virtual machine for running applications and services.",
+      "monthlyPrice": 45,
+      "group": "f056c163-e2b5-425e-b5c2-e46148d2f11e",
+      "id": "fe1df9fb-a153-4104-bbeb-5461d01350c6",
+      "z": 17
+    },
+    {
+      "x": 380,
+      "y": 40,
+      "type": "database",
+      "fill": "#FFFFFF",
+      "outline": "#000000",
+      "outlineWidth": 2,
+      "color": "#e53388",
+      "category": "infrastructure",
+      "width": 80,
+      "height": 80,
+      "label": "Database",
+      "description": "Fully managed relational or NoSQL database service.",
+      "monthlyPrice": 80,
+      "group": "f056c163-e2b5-425e-b5c2-e46148d2f11e",
+      "id": "66e72435-47e7-4c45-9d13-963cdafda004",
+      "z": 16
+    },
+    {
+      "x": 130,
+      "y": 190,
+      "type": "server",
+      "fill": "#FFFFFF",
+      "outline": "#000000",
+      "outlineWidth": 2,
+      "color": "#539b94",
+      "category": "infrastructure",
+      "width": 80,
+      "height": 80,
+      "label": "Server",
+      "description": "Scalable virtual machine for running applications and services.",
+      "monthlyPrice": 45,
+      "group": "f056c163-e2b5-425e-b5c2-e46148d2f11e",
+      "id": "6b798bc1-6c4a-4f9e-83b5-417a470666bc",
+      "z": 18
+    }
+  ],
+  "edges": [
+    {
+      "source": "lb-1",
+      "target": "srv-1",
+      "data": {}
+    },
+    {
+      "source": "lb-1",
+      "target": "srv-2",
+      "data": {}
+    },
+    {
+      "source": "srv-1",
+      "target": "srv-3",
+      "data": {}
+    },
+    {
+      "source": "srv-2",
+      "target": "srv-4",
+      "data": {}
+    },
+    {
+      "source": "srv-3",
+      "target": "db-1",
+      "data": {}
+    },
+    {
+      "source": "srv-3",
+      "target": "cache-1",
+      "data": {}
+    },
+    {
+      "source": "srv-4",
+      "target": "db-1",
+      "data": {}
+    },
+    {
+      "source": "srv-4",
+      "target": "cache-1",
+      "data": {}
+    },
+    {
+      "source": "db-1",
+      "target": "db-2",
+      "data": {}
+    },
+    {
+      "source": "fe1df9fb-a153-4104-bbeb-5461d01350c6",
+      "target": "66e72435-47e7-4c45-9d13-963cdafda004",
+      "data": {
+        "id": "710cf6b7-8d22-45ac-964b-25001557d4c7",
+        "type": "default",
+        "lineStyle": "sourceArrow"
+      }
+    },
+    {
+      "source": "6b798bc1-6c4a-4f9e-83b5-417a470666bc",
+      "target": "66e72435-47e7-4c45-9d13-963cdafda004",
+      "data": {
+        "id": "7307966e-3c14-47fe-9398-c77a90a799c4",
+        "type": "default",
+        "lineStyle": "sourceArrow"
+      }
+    }
+  ],
+  "groups": [
+    {
+      "id": "vpc-1",
+      "type": "vpc",
+      "label": "Production VPC",
+      "x": 100,
+      "y": 120,
+      "width": 700,
+      "height": 480,
+      "fill": "#ddddddAA",
+      "monthlyPrice": 20,
+      "z": 1
+    },
+    {
+      "x": 280,
+      "y": 710,
+      "type": "vpc",
+      "fill": "#FFFFFF",
+      "outline": "#000000",
+      "outlineWidth": 2,
+      "color": "rgb(35, 89, 49)",
+      "category": "infrastructure",
+      "width": 540,
+      "height": 340,
+      "label": "Development VPC",
+      "description": "Isolated cloud network environment for secure resource deployment.",
+      "monthlyPrice": 20,
+      "id": "f056c163-e2b5-425e-b5c2-e46148d2f11e",
+      "z": 15
+    }
+  ]
+}
